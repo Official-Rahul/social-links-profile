@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  border-radius: 50%;
+  height: 100px;
+}
+.profile {
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  padding: 0;
+}
+li {
+  background-color: hsl(0, 0%, 20%);
+  list-style: none;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 120px;
+  text-align: center;
+  border-radius: 10px;
+}
+p {
+  font-size: 14px;
+}
+h2 {
+  margin-bottom: 0;
+}
+h5 {
+  color: hsl(75, 94%, 57%);
+  margin-top: 10px;
+}
